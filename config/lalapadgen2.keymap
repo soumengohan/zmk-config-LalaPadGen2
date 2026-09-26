@@ -57,6 +57,26 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        COMBO_LEFT_ARROW {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <16 17>;
+        };
+
+        COMBO_RIGHT_ARROW {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <17 18>;
+        };
+
+        COMBO_UP_ARROW {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <6 7>;
+        };
+
+        COMBO_DOWN_ARROW {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {

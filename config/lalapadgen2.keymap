@@ -94,7 +94,7 @@
 &kp A              &kp S      &kp D         &kp F      &kp G                                     &kp H     &kp J      &kp K           &kp L             &mt2 EQUAL MINUS
 &mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V      &kp B                                     &kp N     &kp M      &kp COMMA       &kp PERIOD        &kp SLASH
 &kp LCTRL          &kp LWIN   &kp LEFT_ALT  &kp SPACE  &mo 1      &kp LEFT_SHIFT  &kp BACKSPACE  &mo 2     &kp ENTER  &kp LANGUAGE_2  &kp LANGUAGE_1    &kp BACKSLASH
-                   &none      &kp RIGHT     &kp DOWN   &kp LEFT   &kp UP          &kp UP         &kp LEFT  &kp DOWN   &kp RIGHT       &kp LS(NUMBER_2)
+                   &none      &kp RIGHT     &kp DOWN   &kp LEFT   &kp UP          &kp UP         &kp LEFT  &kp DOWN   &kp RIGHT       &kp LEFT_BRACKET
 &mkp LCLK          &mkp RCLK  &mkp MCLK                                                                               &mkp LCLK       &mkp RCLK         &mkp MCLK
 &mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)  &kp LCTRL                                 &mkp MB4  &mkp MB5   &kp LG(TAB)     &kp LG(D)         &kp LCTRL
             >;
@@ -116,13 +116,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION      &kp LCTRL      &kp HASH      &kp DOLLAR        &kp PERCENT                           &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
-&kp LS(KP_NUMBER_2)  &kp AMPERSAND  &kp ASTERISK  &kp ASTERISK      &kp LEFT_PARENTHESIS                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
-&kp GRAVE            &kp SQT        &kp SEMI      &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans         &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
-&trans               &trans         &trans        &trans            &trans                &trans  &trans  &trans         &trans    &trans          &trans     &trans
-                     &trans         &trans        &trans            &trans                &trans  &trans  &trans         &trans    &trans          &trans
-&trans               &trans         &trans                                                                                         &trans          &trans     &trans
-&trans               &trans         &trans        &trans            &trans                                &trans         &trans    &trans          &trans     &trans
+&kp EXCLAMATION   &kp LCTRL      &kp HASH      &kp DOLLAR        &kp PERCENT                           &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
+&kp LEFT_BRACKET  &kp AMPERSAND  &kp ASTERISK  &kp ASTERISK      &kp LEFT_PARENTHESIS                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
+&kp GRAVE         &kp SQT        &kp SEMI      &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &trans         &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
+&trans            &trans         &trans        &trans            &trans                &trans  &trans  &trans         &trans    &trans          &trans     &trans
+                  &trans         &trans        &trans            &trans                &trans  &trans  &trans         &trans    &trans          &trans
+&trans            &trans         &trans                                                                                         &trans          &trans     &trans
+&trans            &trans         &trans        &trans            &trans                                &trans         &trans    &trans          &trans     &trans
             >;
         };
 
